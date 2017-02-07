@@ -28,7 +28,7 @@
     "photoshop.html": {
       "settings": {
         "title": "Adobe Photoshop",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -161,7 +161,7 @@
     "illistrator.html": {
       "settings": {
         "title": "Adobe Illistrator",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1172,7 +1172,9 @@
       ]
     },
     "page6.html": {
-      "settings": {},
+      "settings": {
+        "order": 7
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -1536,7 +1538,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 1
       },
       "components": [
         {
@@ -1952,7 +1954,8 @@
     },
     "contact.html": {
       "settings": {
-        "title": "Contact"
+        "title": "Contact",
+        "order": 8
       },
       "components": [
         {
@@ -2047,6 +2050,17 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "form1-1n",
           "_params": {
             "labelsColor": "#ffffff",
@@ -2092,18 +2106,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            "SMALL": {
-              "color": "#efefef"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>"
         }
       ]
     }

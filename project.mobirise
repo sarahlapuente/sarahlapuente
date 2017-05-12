@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sarah's Portfolio",
-    "currentPage": "adobe premiere.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,8 +21,8 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 115,
-    "versionPublish": "3.11.1",
+    "uniqCompNum": 116,
+    "versionPublish": "3.10.7",
     "path": "file:///C:/Users/0340892/Desktop",
     "screenshot": "screenshot.png"
   },
@@ -1847,7 +1847,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1487088678257-3a541e6e3922-2000x1500.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2456,7 +2456,7 @@
           "_anchor": "msg-box8-36",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1316.jpg",
@@ -2483,6 +2483,12 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "36px"
+            }
+          },
           "_anchor": "msg-box4-34",
           "_params": {
             "imageSize": "47",
@@ -2525,13 +2531,7 @@
           },
           "title": "Imagine Dragons",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube<br></a>",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff",
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube<br></a>"
         },
         {
           "_inherit": "msg-box5",
@@ -2539,6 +2539,12 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "36px"
+            }
+          },
           "_anchor": "msg-box4-35",
           "_params": {
             "imageSize": "47",
@@ -2568,7 +2574,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=AozDouyBHDM",
+              "src": "https://www.youtube.com/watch?v=gh5VY9B_h1Y",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -2581,7 +2587,57 @@
           },
           "title": "A Thousand Million Reasons (Rough Draft)",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube<br></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube<br></a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-37",
+          "_params": {
+            "imageSize": "47",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#53445b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=jwvij_6UIB0&t=52s",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "AThousand Million Reasons",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=jwvij_6UIB0&amp;t=52s\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">YouTube</a>",
           "_styles": {
             "H3": {
               "color": "#ffffff",
